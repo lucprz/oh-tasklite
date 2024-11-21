@@ -27,6 +27,10 @@ type TaskItemProps = {
   provided: DraggableProvided;
 };
 
+function formatDate(dateString: string): string {
+  return new Intl.DateTimeFormat('es-419', { dateStyle: 'long' }).format(new Date(dateString));
+}
+
 function TaskItem({ isDragging, provided, task }: TaskItemProps) {
   const { dispatch } = useBoard();
 
@@ -75,7 +79,7 @@ function TaskItem({ isDragging, provided, task }: TaskItemProps) {
         <CardFooter className='flex justify-between'>
           <div className='flex h-6 items-center gap-2'>
             <CalendarIcon className='text-slate-500' />
-            <CardDescription>{task.date}</CardDescription>
+            <CardDescription>{formatDate(task.date)}</CardDescription>
           </div>
           <CardDescription
             className={`${
