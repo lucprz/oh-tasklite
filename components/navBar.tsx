@@ -13,7 +13,7 @@ export default function Navbar() {
         <h1 className='text-2xl font-bold text-slate-900 dark:text-slate-100'>TaskLite</h1>
         <div className='ml-auto flex items-center gap-4'>
           <Button className='flex h-9 w-9 items-center justify-center rounded-full bg-gray-800 p-0 hover:bg-gray-700'>
-            <a href='https://github.com'>
+            <a href='https://github.com/lucprz/oh-tasklite'>
               <GitHubLogoIcon />
             </a>
           </Button>

@@ -19,8 +19,8 @@
 1. Clona este repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/tu-usuario/tasklite.git
-   cd tasklite
+   git clone https://github.com/username-here/oh-tasklite.git
+   cd oh-tasklite
 
    ```
 
@@ -85,4 +85,4 @@ Estas son las documentaciones más importantes que he usado:
 
 Lucas Perez
 
-[Github](https://nextjs.org/docs) | [LinkedIn](https://nextjs.org/docs)
+[Github](https://github.com/lucprz) | [LinkedIn](https://www.linkedin.com/in/lucprzfs/)
