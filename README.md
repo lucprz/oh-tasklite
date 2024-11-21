@@ -4,14 +4,14 @@
 
 ## Características
 
-- **Gestión de tareas**: Organiza tus tareas en columnas.
+- **Gestión de tareas**: Crea tus tareas, organiza como desees entre las columnas y guarda tu sesión para cuando quieras cambiar algo o volver a abrir la app.
 - **Modo oscuro**: Cambia entre temas claro y oscuro.
-- **Navbar con íconos**: Incluye el enlace al repositorio de GitHub.
+- **Navbar con íconos de accesibilidad**: Incluye el enlace al repositorio de GitHub y un toggle para el tema de la aplicación.
 - **Footer informativo**: Información en la parte inferior.
 
 ## Requisitos
 
-- **Node.js**: Versión 14 o superior.
+- **Node.js**: Versión 18.17.0 o superior.
 - **npm**: Instalado junto con Node.js.
 
 ## Instalación
@@ -61,7 +61,6 @@ tasklite/
 │   ├── hooks/
 │   ├── styles/
 │   ├── types/
-│   ├── hooks/
 │   ├── layout.tsx
 │   └── page.tsx
 ├── components/
