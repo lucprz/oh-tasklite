@@ -38,7 +38,7 @@ export default function CreateTask({
     },
   });
   const { dispatch } = useBoard();
-  const [tag, setTag] = useState('Low');
+  const [tag, setTag] = useState('Baja');
 
   function onSubmit({ task, description }: z.infer<typeof formSchema>) {
     dispatch({
@@ -86,7 +86,7 @@ export default function CreateTask({
                     className={cn(
                       'w-full cursor-pointer justify-between px-3 focus:bg-red-50 focus:text-red-500',
                     )}
-                    onClick={() => setTag('High')}
+                    onClick={() => setTag('Alta')}
                   >
                     Alta <span>!!!</span>
                   </DropdownMenuItem>
@@ -94,7 +94,7 @@ export default function CreateTask({
                     className={cn(
                       'w-full cursor-pointer justify-between px-3 focus:bg-yellow-50 focus:text-yellow-500',
                     )}
-                    onClick={() => setTag('Medium')}
+                    onClick={() => setTag('Media')}
                   >
                     Media <span>!!</span>
                   </DropdownMenuItem>
@@ -102,7 +102,7 @@ export default function CreateTask({
                     className={cn(
                       'w-full cursor-pointer justify-between px-3 focus:bg-green-50 focus:text-green-500',
                     )}
-                    onClick={() => setTag('Low')}
+                    onClick={() => setTag('Baja')}
                   >
                     Baja <span>!</span>
                   </DropdownMenuItem>
