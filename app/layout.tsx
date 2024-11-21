@@ -11,7 +11,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel='icon' type='image/png' href='/favicon.png' />
       </head>
       <body className={`h-screen w-full`}>
-        <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
+        <ThemeProvider attribute='class' defaultTheme='light' enableSystem>
           <div className='mx-auto mt-24 p-6 md:max-w-screen-xl lg:p-16'>
             <BoardProvider>{children}</BoardProvider>
           </div>
