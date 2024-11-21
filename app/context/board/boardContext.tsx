@@ -11,7 +11,7 @@ export const boardInitialState: Board = {
 
 export const BoardContext = React.createContext({
   boardState: boardInitialState,
-  dispatch: (action: BoardAction) => {},
+  dispatch: (_action: BoardAction) => {},
 });
 
 export const BoardProvider = ({ children }: React.PropsWithChildren) => {
